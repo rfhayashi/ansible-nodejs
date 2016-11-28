@@ -1,0 +1,7 @@
+---
+- name: installs epel-release
+  package: name=epel-release
+- name: installs nodejs
+  package: name=nodejs
+- name: installs npm
+  package: name=npm
